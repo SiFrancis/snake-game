@@ -28,7 +28,7 @@ class Snake:
                 (self.head[1] + direc[1]) % cols_num
             )
 
-            print(new_head)
+            # print(new_head)
 
             if new_head in self.body:
                 self.headcolor = 'gray40'
